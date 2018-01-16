@@ -186,4 +186,4 @@ Write the code that for each `<li>` shows:
 * What’s the text inside it (without the subtree)
 * The number of nested `<li>` – all descendants, including the deeply nested ones.
 
-Open the page <a href="../resources/dom/tree.html">table.html</a> in a separate window and make use of browser tools for that.
+Open the page <a href="../resources/dom/tree.html">tree.html</a> in a separate window and make use of browser tools for that.
