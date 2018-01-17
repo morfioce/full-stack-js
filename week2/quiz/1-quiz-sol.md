@@ -88,18 +88,18 @@ alert( `hello ${name.toUpperCase()}` ); // hello JAVASCRIPT
 ## What are the results of these expressions
 
 ```javascript
-" 9 " + 1 - 1
-" 9 " - 1 + 1
+" 9 " + 1 - 1  // number: 90
+" 9 " - 1 + 1 // number: 9
 
-24 + 'px'
-'px' + 24
+24 + 'px' // string: 24px
+'px' + 24 // string: px24
 
-true + false - true
-false - false + true
+true + false - true // number 0
+false - false + true // number 1
 
-null + 99
-99 + null
+null + 99 // number 99
+99 + null // number 99
 
-undefined + 14
-14 + undefined
+undefined + 14 // NaN
+14 + undefined // NaN
 ```
