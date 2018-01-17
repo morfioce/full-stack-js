@@ -15,7 +15,7 @@
 4. JavaScript is a scripting language.
 5. Before building a web application we need to install JavaScript in the browser.
 6. Historically JavaScript was named LiveScript
-7. JavaScript is not the only language supported by default in major browsers.
+7. JavaScript is not the only programming language supported by default in major browsers.
 
 ## true or false
 
@@ -73,17 +73,17 @@
 ```javascript
 let name = "javascript";
 
-alert( `hello ${javascript}` ); // ?
+alert( `hello ${name}` ); // ?
 
-alert( `hello ${javascript + " is awesome"}` ); // ?
+alert( `hello ${name + " is awesome"}` ); // ?
 
-alert( `hello ${javascript} is awesome` ); // ?
+alert( `hello ${name} is awesome` ); // ?
 
-alert( `hello "${javascript.length}"` );
+alert( `hello "${name.length}"` );
 
-alert( `hello ${javascript.length}` );
+alert( `hello ${name.length}` );
 
-alert( `hello ${javascript.toUpperCase()}` );
+alert( `hello ${name.toUpperCase()}` );
 ```
 
 ## What are the results of these expressions
